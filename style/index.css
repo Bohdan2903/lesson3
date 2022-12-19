@@ -1,0 +1,18 @@
+@import "reset.css";
+
+body{
+    color: rgba(7, 5, 5, 0.85);
+}
+.list-item {
+    background: chocolate;
+    color: red;
+}
+
+.header-nav .list-item {
+    color: green;
+}
+
+.footer-nav .list-item {
+    color: blue;
+}
+/*end header*/
