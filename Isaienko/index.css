@@ -2,37 +2,22 @@ label {
     color: #0092e7
 }
 
-h1 {
-    color: #6c0909
-}
 
 h1 {
+    color: #6c0909;
     margin-left: 470px
 }
 
-li {
-    color: #00c033
-}
 
 li {
-    margin-left: 200px
+    color: #00c033;
+    margin-left: 200px;
+    font-size: 19px;
+    width: 1500px;
+    padding: 7px;
+    height: 70px;
 }
 
-li {
-    padding: 7px
-}
-
-li {
-    height: 70px
-}
-
-li {
-    width: 1500px
-}
-
-li {
-    font-size: 19px
-}
 
 div {
     border-style: dashed;
