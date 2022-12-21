@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./index.css">
+    <title>Dontsov</title>
+</head>
+<body>
+<main>
+<form name="myform" action="javascript:completeAndRedirect()">
+    <h2 class="red">Details of Person</h2>
+    <select>
+        <option value="--None--">--None--</option>
+        <option value="Mr">Mr</option>
+        <option value="Mrs">Mrs</option>
+    </select>
+    <p><label for="fname"><b>First name:</b></label><input type="text" id="fname" name="login" pattern="[A-Za-z]{1,32}" maxlength="30" required></p>
+    <p><label for="lname"><b>Last name:</b></label><input type="text" id="lname" pattern="[A-Za-z]{1,32}" maxlength="30"></p>
+    <p><b>Gender</b><input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female</p>
+    <div id="email"><b>Email:</b><input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"></div>
+    <br>
+    <div><b class="blue">Date of birth</b><input type="date"></div>
+    <div class="adre"><b>Adress:</b></div>
+    <textarea class="area" name="messenger" cols="30" rows="5"></textarea>
+    <p><input type="submit" value="Submit"></p>
+</form>
+    <nav class="header-nav">
+        <ul>
+            <li class="list-item">ONE</li>
+        </ul>
+    </nav>
+    <nav class="footer-nav">
+        <ul>
+            <li class="list-item">TWO</li>
+        </ul>
+    </nav>
+    <nav class="">
+        <ul>
+            <li class="list-item">THREE</li>
+        </ul>
+    </nav>
+    <p id="pr">THE END</p>
+</main>
+<p id="text"></p>
+<script src="main.js"></script>
+</body>
+</html>
+</body>
+</html>
