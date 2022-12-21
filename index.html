@@ -5,19 +5,25 @@
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
           name="viewport">
     <meta content="ie=edge" http-equiv="X-UA-Compatible">
+
     <title>Lesson 3</title>
+    <style>
+        label{
+            color:red;
+        }
+    </style>
 </head>
 <body>
  Hello to all! yohooo
 <main>
     <form name="myform" action="javascript:completeAndRedirect();">
-        <lable>І'мя:</lable><br>
+        <label id="name">І'мя:</label><br>
         <input type="text" name="Name" autocomplete="off"><br>
 
-        <lable>Email:</lable><br>
+        <label class="red">Email:</label><br>
         <input type="email" name="login" required><br>
 
-        <lable>Ваше повідомлення:</lable><br>
+        <label>Ваше повідомлення:</label><br>
 
         <textarea name="message" style="resize: none; width: 200px; height: 100px;"></textarea>
         <br>
