@@ -1,0 +1,32 @@
+fieldset {
+    color: blueviolet;
+    font-size: large;
+    font-weight: bolder;
+    height: auto;
+    width: 150px;
+}
+
+label {
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+label.salutation {
+    color: red;
+  }
+
+input {
+    background: #05ee2a;
+}
+
+select {
+    background: #05ee2a;
+}
+
+.submit {
+    background: blueviolet;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    margin: 40px;
+    padding: 10px;
+}
