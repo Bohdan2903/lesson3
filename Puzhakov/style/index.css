@@ -1,10 +1,30 @@
+
+fieldset{
+    border: #df46e3;
+    border-width: 8px;
+    border-style: inset;
+ }
+
+form{
+
+}
+h1 h3{
+
+}
 label{
     color:red;
     font-size: 25px;
 }
-#name{
-    color:green;
-}
+
 .red{
     color:darkred;
+    background: darkgrey;
+
+    /*margin: ;*/
+    /*padding: ;*/
+    /*height: ;*/
+    /*width: ;*/
+}
+main {
+    background-image: url(../images/maxresdefault.jpg);
 }
