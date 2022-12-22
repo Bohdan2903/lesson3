@@ -1,0 +1,17 @@
+@import "reset.css";
+
+label {
+    color: #7b4fb0;
+}
+
+.list-item {
+    background: chartreuse
+}
+
+.footer-nav {
+    color: aqua
+}
+
+.red {
+    color: darkblue
+}
