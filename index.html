@@ -1,31 +1,62 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-          name="viewport">
-    <meta content="ie=edge" http-equiv="X-UA-Compatible">
-    <title>Lesson 3</title>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+	      name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<link href="./style/index.css" rel="stylesheet">
+	<title>Lesson 3</title>
 </head>
+
 <body>
-
-<main>
-    <form name="myform" action="javascript:completeAndRedirect();">
-        <lable>І'мя:</lable><br>
-        <input type="text" name="Name" autocomplete="off"><br>
-
-        <lable>Email:</lable><br>
-        <input type="email" name="login" required><br>
-
-        <lable>Ваше повідомлення:</lable><br>
-
-        <textarea name="message" style="resize: none; width: 200px; height: 100px;"></textarea>
-        <br>
-        <input type="file" >
-        <input type="submit" value="Увійти">
-    </form>
 	
-    <p id="text"></p>
+	<main>
+		<form action="javascript:completeAndRedirect();" name="myform">
+			<label class="red green">І'мя:</label><br>
+			<input autocomplete="off" name="Name" type="text"><br>
+			
+			<label>Your Email:</label><br>
+			<input name="login" required type="email"><br>
+			
+			<label class="red">Ваше повідомлення:</label><br>
+			
+			<textarea class="red" name="message" style="resize: none; width: 200px; height: 100px;"></textarea>
+			<br>
+			<input type="file">
+			<input class="red" type="submit" value="Увійти">
+			<p class="red green" id="test1">fdgdfg</p>
+		</form>
+		
+		<nav class="header-nav">
+			<ul>
+				<li class="list-item">1</li>
+				<li class="list-item">2</li>
+				<li class="list-item">3</li>
+				<li class="list-item">4</li>
+				<li class="list-item">5</li>
+			</ul>
+		</nav>
+		<nav class="footer-nav">
+			<ul>
+				<li class="list-item">1</li>
+				<li class="list-item">2</li>
+				<li class="list-item">3</li>
+				<li class="list-item">4</li>
+				<li class="list-item">5</li>
+			</ul>
+		</nav>
+		<nav class="">
+			<ul>
+				<li class="list-item">1</li>
+				<li class="list-item">2</li>
+				<li class="list-item">3</li>
+				<li class="list-item">4</li>
+				<li class="list-item">5</li>
+			</ul>
+		</nav>
+	
+    <p id="test"></p>
 
 </main>
 
