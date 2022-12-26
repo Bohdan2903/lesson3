@@ -1,0 +1,32 @@
+label{
+    color: cornflowerblue;
+    font-size: 25px;
+    background: #eef5dc;
+    width: auto;
+    height: auto;
+}
+.red{
+    margin-bottom: 30px;
+    margin-top: 15px;
+    margin-left: 80px;
+    padding: 10px;
+    height: 20px;
+    width: auto;
+}
+label.salutation{
+    color: #7b4fb0;
+    font-size: 30px;
+    font-weight: bolder;
+}
+input{
+    background: #F8E391;
+}
+textarea{
+    background: #F8E391;
+}
+.submit {
+    background: #eef5dc;
+    border: 1px ridge rgba(300, 220, 50, .6);
+    margin: 50px;
+    padding: 10px;
+}
