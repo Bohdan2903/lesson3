@@ -1,0 +1,51 @@
+main {
+    margin-left: 10px;
+}
+
+form {
+    color: #4d6dbd;
+    font-size: medium;
+    border: 1px;
+    padding: 30px;
+}
+
+h1 {
+    font-size: large;
+}
+
+.city {
+    color: #7b4fb0;
+    background: #f5c8c8;
+}
+
+label {
+    color: #4d6dbd;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+input {
+    background: violet;
+    padding: 5px;
+}
+
+select {
+    background: #05ee2a;
+}
+
+.message {
+    background: #f5c8c8;
+}
+
+.submit {
+    background: blueviolet;
+    border: 4mm ridge rgba(211, 220, 50, .6);
+    margin: 40px;
+    padding: 10px;
+}
+
+.submit {
+    width: 100px;
+    padding: 5px;
+    position: relative;
+}
