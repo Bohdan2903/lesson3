@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Halak</title>
+    <link rel="stylesheet" href="style/index.css">
+    <link rel="stylesheet" href="style/reset.css">
+</head>
+<body>
+<main>
+    <form>
+        <fieldset>
+            <h1>Fill the information</h1>
+            <label>City</label><br>
+            <select class="city">
+                <option>Kiev</option>
+                <option>Cherkasy</option>
+                <option>Odesa</option>
+                <option>Kherson</option>
+                <option>Lviv</option>
+            </select><br>
+            <label>First name:</label><br>
+            <input type="text" name="Firstname" placeholder="Enter name" maxlength="30" minlength="1" required><br>
+            <label>Last name:</label><br>
+            <input type="text" name="Lastname" placeholder="Enter name" maxlength="30" minlength="1"><br>
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="Male" id="1">
+            <label for="1">Male</label>
+            <input type="radio" name="gender" value="Female" id="2">
+            <label for="2">Female</label><br>
+            <label>Email:</label><br>
+            <input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"><br>
+            <label>Date of birth:</label><br>
+            <input type="date" name="date"><br>
+            <label>Message:</label><br>
+            <textarea class="message" style="resize: none; width: 400px; height: 250px;"></textarea><br>
+            <input class="submit" type="submit" name="submit" value="Submit">
+        </fieldset>
+    </form>
+    <p id="text">
+</main>
+</body>
+</html>
